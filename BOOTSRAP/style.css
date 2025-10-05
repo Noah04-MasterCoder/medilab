@@ -1,0 +1,18 @@
+.demo{
+    display:flex;
+}
+.demo1{
+    width:50%;
+    border:1px solid rgb(0, 183, 255);
+}
+.demo2{
+    width:50%;
+    border:1px solid red;
+}
+
+@media screen and (max-width:500px){
+.demo{
+    display:flex;
+    flex-direction: column;
+}
+}
